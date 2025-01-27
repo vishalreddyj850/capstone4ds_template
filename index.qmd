@@ -30,3 +30,18 @@ to edit)
 #### Customer Segmentation of E-commerce data using K-means Clustering Algorithm [@10048834]:
 - This study explores the application of the K-Means clustering algorithm for customer segmentation in e-commerce. By analyzing a dataset of 500 entries with attributes like session length, time spent on mobile apps and websites, membership duration, and yearly spending, the research aims to determine whether the company should focus on its website or mobile app. Using the elbow method to select the optimal number of clusters, three customer segments were identified. The findings suggest that customer behavior, such as membership duration and platform engagement, directly correlates with spending patterns. Recommendations include targeting campaigns to increase customer retention and emphasizing membership benefits for profitability. The study concludes that customer segmentation using K-Means is a practical and efficient method for tailoring marketing strategies in a competitive e-commerce environment.
 
+
+#### Research on Segmenting E-Commerce Customer throughan Improved K-Medoids Clustering Algorithm [@wu2022research]:
+- The article focuses on improving e-commerce customer segmentation using an enhanced K-Medoids clustering algorithm and a modified RFM (Recency, Frequency, Monetary) model. It introduces new customer behavior features, like adding items to the cart and favorites, into the RFM model to better reflect shopping habits. To enhance clustering accuracy and efficiency, the authors integrate the Calinski-Harabasz (CH) index to find the best number of clusters and apply a K-means++ inspired method for selecting initial cluster centers. Their method outperforms traditional algorithms in accuracy and speed, making it effective for analyzing diverse customer groups and enabling tailored marketing strategies.
+
+
+#### Comparison of K-Means and DBSCAN Algorithms for Customer Segmentation in E-commerce [@paramita2024comparison]:
+- The study compares two popular algorithms, K-Means and DBSCAN, for customer segmentation in e-commerce. It focuses on analyzing their performance in grouping customers based on purchasing behavior. K-Means is known for its simplicity and speed, making it effective for datasets with clear cluster boundaries. On the other hand, DBSCAN excels in identifying clusters of various shapes and handling noise, making it suitable for complex datasets. The study evaluates both algorithms on different metrics like clustering accuracy and efficiency, helping to determine the best choice for segmenting e-commerce customers and improving marketing strategies.
+
+#### Customer Segmentation of Shopping Mall Users Using K-Means Clustering :
+- This study applies K-Means clustering to segment shopping mall customers based on their spending behavior and demographic characteristics. Two clustering models were created: age vs. spending score and annual income vs. spending score. Using the elbow method, four clusters were identified for age-based segmentation, while five clusters were found for income-based segmentation.
+Key insights reveal that older customers tend to have lower spending scores, while high-income individuals do not necessarily spend more. These findings help shopping malls target promotions effectively to boost revenue. The study also emphasizes how machine learning automates segmentation, making it more efficient than traditional manual analysis. Additionally, it highlights the benefits of segmentation in price optimization, customer retention, brand awareness, and revenue growth.
+
+
+
+
