@@ -3132,11 +3132,29 @@ vertical-align: -.125em;
 <ul>
 <li>This study applies K-Means clustering to segment shopping mall customers based on their spending behavior and demographic characteristics. Two clustering models were created: age vs. spending score and annual income vs. spending score. Using the elbow method, four clusters were identified for age-based segmentation, while five clusters were found for income-based segmentation. Key insights reveal that older customers tend to have lower spending scores, while high-income individuals do not necessarily spend more. These findings help shopping malls target promotions effectively to boost revenue. The study also emphasizes how machine learning automates segmentation, making it more efficient than traditional manual analysis. Additionally, it highlights the benefits of segmentation in price optimization, customer retention, brand awareness, and revenue growth.</li>
 </ul>
+</section>
+<section id="constrained-k-means-clustering-bradley2000constrained" class="level4">
+<h4 class="anchored" data-anchor-id="constrained-k-means-clustering-bradley2000constrained">Constrained K-Means Clustering <span class="citation" data-cites="bradley2000constrained">(<a href="#ref-bradley2000constrained" role="doc-biblioref">Bradley, Bennett, and Demiriz 2000</a>)</span> :</h4>
+<ul>
+<li>The paper discusses a modified version of the K-Means clustering algorithm that ensures each cluster has a minimum number of points. Regular K-Means sometimes produces empty or very small clusters, especially with high-dimensional data and a large number of clusters. The authors propose adding constraints to force a minimum number of points in each cluster, solving the problem using linear programming. Their method improves clustering results and avoids poor local solutions. Tests on real datasets show that constrained K-Means often produces better summaries of data and is less likely to get stuck in bad clustering patterns.</li>
+</ul>
+</section>
+<section id="the-analysis-of-a-simple-k-means-clustering-algorithm-10.1145336154.336189" class="level4">
+<h4 class="anchored" data-anchor-id="the-analysis-of-a-simple-k-means-clustering-algorithm-10.1145336154.336189">The Analysis of a Simple k-Means Clustering Algorithm <span class="citation" data-cites="10.1145/336154.336189">(<a href="#ref-10.1145/336154.336189" role="doc-biblioref">Kanungo et al. 2000</a>)</span> :</h4>
+<ul>
+<li>This paper explains a simple and efficient way to run the k-Means clustering algorithm, which is widely used for grouping data points. Instead of the usual approach, the authors introduce the “filtering algorithm,” which builds a kd-tree for data points rather than cluster centers, making it faster in many cases. The method helps speed up the process by avoiding unnecessary calculations, especially when data points naturally form clear clusters. The authors tested this approach on both real and synthetic data, showing that it runs faster than traditional methods, particularly when clusters are well separated.</li>
+</ul>
 
 </section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bradley2000constrained" class="csl-entry" role="listitem">
+Bradley, Paul S, Kristin P Bennett, and Ayhan Demiriz. 2000. <span>“Constrained k-Means Clustering.”</span> <em>Microsoft Research, Redmond</em> 20 (0): 0.
+</div>
+<div id="ref-10.1145/336154.336189" class="csl-entry" role="listitem">
+Kanungo, Tapas, David M. Mount, Nathan S. Netanyahu, Christine Piatko, Ruth Silverman, and Angela Y. Wu. 2000. <span>“The Analysis of a Simple k-Means Clustering Algorithm.”</span> In <em>Proceedings of the Sixteenth Annual Symposium on Computational Geometry</em>, 100–109. SCG ’00. New York, NY, USA: Association for Computing Machinery. <a href="https://doi.org/10.1145/336154.336189">https://doi.org/10.1145/336154.336189</a>.
+</div>
 <div id="ref-paramita2024comparison" class="csl-entry" role="listitem">
 Paramita, Adi Suryaputra, and Taqwa Hariguna. 2024. <span>“Comparison of k-Means and DBSCAN Algorithms for Customer Segmentation in e-Commerce.”</span> <em>Journal of Digital Market and Digital Currency</em> 1 (1): 43–62.
 </div>
