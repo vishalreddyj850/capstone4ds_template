@@ -47,7 +47,3 @@ to edit)
 - This paper explains a simple and efficient way to run the k-Means clustering algorithm, which is widely used for grouping data points. Instead of the usual approach, the authors introduce the "filtering algorithm," which builds a kd-tree for data points rather than cluster centers, making it faster in many cases. The method helps speed up the process by avoiding unnecessary calculations, especially when data points naturally form clear clusters. The authors tested this approach on both real and synthetic data, showing that it runs faster than traditional methods, particularly when clusters are well separated.
 
 
-
-hi [@doi:10.1243/095440605X8298]
-
-
